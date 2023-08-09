@@ -16,7 +16,7 @@
         echo "Saida: " . $saida->format('d/m/y H:i:s') . "<br><br>";
         
         //calcular o intervalo entre as datas
-        $intervado = $entrada->diff($saida);
+        $intervalo = $entrada->diff($saida);
         
         var_dump($intervalo);
 
